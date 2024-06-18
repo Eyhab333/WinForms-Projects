@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C1E2106A-2B63-4375-AB67-949EE698BBAF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MuseumTestProject1</RootNamespace>
+    <AssemblyName>MuseumTestProject1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClassLibrary1">
+      <HintPath>..\..\..\Course 14 - C# - Level 1\Desktop-app\ClassLibrary1\bin\Debug\ClassLibrary1.dll</HintPath>
+    </Reference>
+    <Reference Include="cooldatagridview, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\cooldatagridview.1.0.0\lib\cooldatagridview.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dashboard\ctrSoon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboard\ctrSoon.Designer.cs">
+      <DependentUpon>ctrSoon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\frmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\frmDashboard.Designer.cs">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employees\frmEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employees\frmEmployees.Designer.cs">
+      <DependentUpon>frmEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistoricalPieces\frmAddUpdatePiece.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoricalPieces\frmAddUpdatePiece.Designer.cs">
+      <DependentUpon>frmAddUpdatePiece.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistoricalPieces\frmHistoricalPieces.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoricalPieces\frmHistoricalPieces.Designer.cs">
+      <DependentUpon>frmHistoricalPieces.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistoricalPieces\UserControls\ctrlPieceInfoCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HistoricalPieces\UserControls\ctrlPieceInfoCard.Designer.cs">
+      <DependentUpon>ctrlPieceInfoCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistoricalPieces\UserControls\ctrlPieceInfoCardWithFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HistoricalPieces\UserControls\ctrlPieceInfoCardWithFilter.Designer.cs">
+      <DependentUpon>ctrlPieceInfoCardWithFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\frmListPeople.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\frmListPeople.Designer.cs">
+      <DependentUpon>frmListPeople.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\UserControls\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="People\UserControls\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\frmSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmSettings.Designer.cs">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisitHistory\frmVisitHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisitHistory\frmVisitHistory.Designer.cs">
+      <DependentUpon>frmVisitHistory.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dashboard\ctrSoon.resx">
+      <DependentUpon>ctrSoon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\frmDashboard.resx">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees\frmEmployees.resx">
+      <DependentUpon>frmEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.ar-SA.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoricalPieces\frmHistoricalPieces.resx">
+      <DependentUpon>frmHistoricalPieces.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoricalPieces\UserControls\ctrlPieceInfoCard.resx">
+      <DependentUpon>ctrlPieceInfoCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\frmListPeople.resx">
+      <DependentUpon>frmListPeople.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Settings\frmSettings.resx">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisitHistory\frmVisitHistory.resx">
+      <DependentUpon>frmVisitHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Museum_BusinessLayer\Museum_BusinessLayer.csproj">
+      <Project>{c0eb162f-c50f-4e02-9994-c83acbafbe18}</Project>
+      <Name>Museum_BusinessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_0280.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard-white-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard-blue-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-blue-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\groups-blue-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\groups-white-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-white-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notes 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pieces.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
