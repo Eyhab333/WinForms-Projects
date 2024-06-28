@@ -76,6 +76,10 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Global Classes\clsFormat.cs" />
+    <Compile Include="Global Classes\clsGlobal.cs" />
+    <Compile Include="Global Classes\clsValidatoin.cs" />
+    <Compile Include="Global Classes\util.cs" />
     <Compile Include="HistoricalPieces\frmAddUpdatePiece.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -221,6 +225,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pieces.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Login\" />
+    <Folder Include="User\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
