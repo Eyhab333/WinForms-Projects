@@ -7,9 +7,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MuseumTestProject1.Global_Classes
+namespace MuseumTestProject1.Classes
 {
-    internal static class clsGlobal
+    public static class clsGlobal
     {
         public static clsUser CurrentUser;
 

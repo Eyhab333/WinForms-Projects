@@ -1,4 +1,4 @@
-﻿namespace DVLD.People
+﻿namespace MuseumTestProject1.People
 {
     partial class frmShowPersonInfo
     {
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnClose = new System.Windows.Forms.Button();
-            this.ctrlPersonCard1 = new DVLD.Controls.ctrlPersonCard();
+            this.ctrlPersonCard1 = new MuseumTestProject1.Controls.ctrlPersonCard();
             this.lblTitle = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -37,7 +37,7 @@
             // 
             this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnClose.Image = global::DVLD.Properties.Resources.Close_32;
+            this.btnClose.Image = global::MuseumTestProject1.Properties.Resources.Close_32;
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClose.Location = new System.Drawing.Point(714, 381);
             this.btnClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);

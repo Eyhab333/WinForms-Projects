@@ -1,5 +1,5 @@
-﻿using DVLD.Classes;
-using DVLD_Buisness;
+﻿using MuseumTestProject1.Classes;
+using Museum_BusinessLayer;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DVLD.Login
+namespace MuseumTestProject1.Login
 {
     public partial class frmLogin : Form
     {
@@ -80,6 +80,11 @@ namespace DVLD.Login
             }
             else
                 chkRememberMe.Checked = false;
+
+        }
+
+        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

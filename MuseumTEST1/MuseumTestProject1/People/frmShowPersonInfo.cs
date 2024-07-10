@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DVLD.People
+namespace MuseumTestProject1.People
 {
     public partial class frmShowPersonInfo : Form
     {

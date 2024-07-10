@@ -1,5 +1,5 @@
-﻿using DVLD.Properties;
-using DVLD_Buisness;
+﻿using MuseumTestProject1.Properties;
+using Museum_BusinessLayer;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,9 +11,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
 using System.IO;
-using DVLD.People;
+using MuseumTestProject1.People;
 
-namespace DVLD.Controls
+namespace MuseumTestProject1.Controls
 {
     public partial class ctrlPersonCard : UserControl
     {

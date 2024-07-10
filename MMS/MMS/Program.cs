@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using cooldatagridview;
-using MuseumTestProject1.Login;
 
-namespace MuseumTestProject1
+namespace MMS
 {
     internal static class Program
     {
@@ -18,7 +16,7 @@ namespace MuseumTestProject1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLogin());
+            Application.Run(new frmMain());
         }
     }
 }

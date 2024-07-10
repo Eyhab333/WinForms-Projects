@@ -1,4 +1,4 @@
-﻿using DVLD_Buisness;
+﻿using Museum_BusinessLayer;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DVLD.User
+namespace MuseumTestProject1.User
 {
     public partial class frmListUsers : Form
     {

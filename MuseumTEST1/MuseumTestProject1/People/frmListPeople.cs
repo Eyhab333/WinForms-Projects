@@ -9,11 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
-using DVLD.Classes;
-using DVLD_Buisness;
+using MuseumTestProject1.Classes;
+using Museum_BusinessLayer;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
-namespace DVLD.People
+namespace MuseumTestProject1.People
 {
     public partial class frmListPeople : Form
     {

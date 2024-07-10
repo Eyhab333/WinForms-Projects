@@ -1,4 +1,4 @@
-﻿namespace DVLD.Controls
+﻿namespace MuseumTestProject1.Controls
 {
     partial class ctrlUserCard
     {
@@ -35,7 +35,7 @@
             this.lblUserID = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.ctrlPersonCard1 = new DVLD.Controls.ctrlPersonCard();
+            this.ctrlPersonCard1 = new MuseumTestProject1.Controls.ctrlPersonCard();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 

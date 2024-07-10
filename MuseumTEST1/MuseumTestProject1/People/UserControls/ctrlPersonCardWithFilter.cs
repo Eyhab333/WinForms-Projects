@@ -1,5 +1,5 @@
-﻿using DVLD.People;
-using DVLD_Buisness;
+﻿using MuseumTestProject1.People;
+using Museum_BusinessLayer;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DVLD.Controls
+namespace MuseumTestProject1.Controls
 {
     public partial class ctrlPersonCardWithFilter : UserControl
     {

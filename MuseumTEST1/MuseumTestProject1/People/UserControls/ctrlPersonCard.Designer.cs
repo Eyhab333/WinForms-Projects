@@ -1,4 +1,4 @@
-﻿namespace DVLD.Controls
+﻿namespace MuseumTestProject1.Controls
 {
     partial class ctrlPersonCard
     {
@@ -212,7 +212,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::DVLD.Properties.Resources.Calendar_32;
+            this.pictureBox4.Image = global::MuseumTestProject1.Properties.Resources.Calendar_32;
             this.pictureBox4.Location = new System.Drawing.Point(455, 109);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(31, 26);
@@ -255,7 +255,7 @@
             // 
             // pbGendor
             // 
-            this.pbGendor.Image = global::DVLD.Properties.Resources.Man_32;
+            this.pbGendor.Image = global::MuseumTestProject1.Properties.Resources.Man_32;
             this.pbGendor.Location = new System.Drawing.Point(118, 144);
             this.pbGendor.Name = "pbGendor";
             this.pbGendor.Size = new System.Drawing.Size(31, 26);
@@ -265,7 +265,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::DVLD.Properties.Resources.Person_32;
+            this.pictureBox8.Image = global::MuseumTestProject1.Properties.Resources.Person_32;
             this.pictureBox8.Location = new System.Drawing.Point(118, 68);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(31, 26);
@@ -275,7 +275,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::DVLD.Properties.Resources.Address_32;
+            this.pictureBox7.Image = global::MuseumTestProject1.Properties.Resources.Address_32;
             this.pictureBox7.Location = new System.Drawing.Point(118, 220);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(31, 26);
@@ -285,7 +285,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::DVLD.Properties.Resources.Country_32;
+            this.pictureBox6.Image = global::MuseumTestProject1.Properties.Resources.Country_32;
             this.pictureBox6.Location = new System.Drawing.Point(455, 184);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(31, 26);
@@ -295,7 +295,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::DVLD.Properties.Resources.Email_32;
+            this.pictureBox5.Image = global::MuseumTestProject1.Properties.Resources.Email_32;
             this.pictureBox5.Location = new System.Drawing.Point(118, 181);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(31, 26);
@@ -305,7 +305,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::DVLD.Properties.Resources.Number_32;
+            this.pictureBox3.Image = global::MuseumTestProject1.Properties.Resources.Number_32;
             this.pictureBox3.Location = new System.Drawing.Point(118, 107);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(31, 26);
@@ -315,7 +315,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::DVLD.Properties.Resources.Phone_32;
+            this.pictureBox2.Image = global::MuseumTestProject1.Properties.Resources.Phone_32;
             this.pictureBox2.Location = new System.Drawing.Point(454, 144);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(31, 26);
@@ -404,7 +404,7 @@
             // 
             this.pbPersonImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pbPersonImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbPersonImage.Image = global::DVLD.Properties.Resources.Male_512;
+            this.pbPersonImage.Image = global::MuseumTestProject1.Properties.Resources.Male_512;
             this.pbPersonImage.InitialImage = null;
             this.pbPersonImage.Location = new System.Drawing.Point(635, 79);
             this.pbPersonImage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);

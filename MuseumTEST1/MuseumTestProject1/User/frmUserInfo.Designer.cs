@@ -1,4 +1,4 @@
-﻿namespace DVLD.User
+﻿namespace MuseumTestProject1.User
 {
     partial class frmUserInfo
     {
@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.btnClose = new System.Windows.Forms.Button();
-            this.ctrlUserCard1 = new DVLD.Controls.ctrlUserCard();
+            this.ctrlUserCard1 = new MuseumTestProject1.Controls.ctrlUserCard();
             this.SuspendLayout();
             // 
             // btnClose
             // 
             this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnClose.Image = global::DVLD.Properties.Resources.Close_32;
+            this.btnClose.Image = global::MuseumTestProject1.Properties.Resources.Close_32;
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClose.Location = new System.Drawing.Point(720, 413);
             this.btnClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);

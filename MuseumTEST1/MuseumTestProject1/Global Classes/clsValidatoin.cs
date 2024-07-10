@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace MuseumTestProject1.Global_Classes
+namespace MuseumTestProject1.Classes
 {
     public class clsValidatoin
     {

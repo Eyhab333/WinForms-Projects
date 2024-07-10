@@ -1,4 +1,4 @@
-﻿namespace DVLD.People
+﻿namespace MuseumTestProject1.People
 {
     partial class frmListPeople
     {
@@ -99,7 +99,7 @@
             // 
             // showDetailsToolStripMenuItem
             // 
-            this.showDetailsToolStripMenuItem.Image = global::DVLD.Properties.Resources.PersonDetails_32;
+            this.showDetailsToolStripMenuItem.Image = global::MuseumTestProject1.Properties.Resources.PersonDetails_32;
             this.showDetailsToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.showDetailsToolStripMenuItem.Name = "showDetailsToolStripMenuItem";
             this.showDetailsToolStripMenuItem.Size = new System.Drawing.Size(178, 38);
@@ -113,7 +113,7 @@
             // 
             // toolStripMenuItem1
             // 
-            this.toolStripMenuItem1.Image = global::DVLD.Properties.Resources.AddPerson_32;
+            //this.toolStripMenuItem1.Image = global::MuseumTestProject1.Properties.Resources.AddPerson_32;
             this.toolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(178, 38);
@@ -122,7 +122,7 @@
             // 
             // editToolStripMenuItem
             // 
-            this.editToolStripMenuItem.Image = global::DVLD.Properties.Resources.edit_32;
+            this.editToolStripMenuItem.Image = global::MuseumTestProject1.Properties.Resources.edit_32;
             this.editToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(178, 38);
@@ -131,7 +131,7 @@
             // 
             // deleteToolStripMenuItem
             // 
-            this.deleteToolStripMenuItem.Image = global::DVLD.Properties.Resources.Delete_32;
+            this.deleteToolStripMenuItem.Image = global::MuseumTestProject1.Properties.Resources.Delete_32;
             this.deleteToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
             this.deleteToolStripMenuItem.Size = new System.Drawing.Size(178, 38);
@@ -145,7 +145,7 @@
             // 
             // sendEmailToolStripMenuItem
             // 
-            this.sendEmailToolStripMenuItem.Image = global::DVLD.Properties.Resources.send_email_32;
+            this.sendEmailToolStripMenuItem.Image = global::MuseumTestProject1.Properties.Resources.send_email_32;
             this.sendEmailToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.sendEmailToolStripMenuItem.Name = "sendEmailToolStripMenuItem";
             this.sendEmailToolStripMenuItem.Size = new System.Drawing.Size(178, 38);
@@ -154,7 +154,7 @@
             // 
             // phoneCallToolStripMenuItem
             // 
-            this.phoneCallToolStripMenuItem.Image = global::DVLD.Properties.Resources.call_32;
+            this.phoneCallToolStripMenuItem.Image = global::MuseumTestProject1.Properties.Resources.call_32;
             this.phoneCallToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.phoneCallToolStripMenuItem.Name = "phoneCallToolStripMenuItem";
             this.phoneCallToolStripMenuItem.Size = new System.Drawing.Size(178, 38);
@@ -237,7 +237,7 @@
             // pbPersonImage
             // 
             this.pbPersonImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pbPersonImage.Image = global::DVLD.Properties.Resources.People_400;
+            this.pbPersonImage.Image = global::MuseumTestProject1.Properties.Resources.People_400;
             this.pbPersonImage.InitialImage = null;
             this.pbPersonImage.Location = new System.Drawing.Point(627, 14);
             this.pbPersonImage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -250,7 +250,7 @@
             // btnAddPerson
             // 
             this.btnAddPerson.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddPerson.Image = global::DVLD.Properties.Resources.Add_Person_40;
+            this.btnAddPerson.Image = global::MuseumTestProject1.Properties.Resources.Add_Person_40;
             this.btnAddPerson.Location = new System.Drawing.Point(1408, 228);
             this.btnAddPerson.Name = "btnAddPerson";
             this.btnAddPerson.Size = new System.Drawing.Size(88, 55);
@@ -262,7 +262,7 @@
             // 
             this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Image = global::DVLD.Properties.Resources.Close_32;
+            this.btnClose.Image = global::MuseumTestProject1.Properties.Resources.Close_32;
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClose.Location = new System.Drawing.Point(1361, 672);
             this.btnClose.Name = "btnClose";

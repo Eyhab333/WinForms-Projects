@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MuseumTestProject1.Global_Classes
+namespace MuseumTestProject1.Classes
 {
     public class clsFormat
     {

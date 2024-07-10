@@ -1,5 +1,5 @@
-﻿using DVLD.Properties;
-using DVLD_Buisness;
+﻿using MuseumTestProject1.Properties;
+using Museum_BusinessLayer;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,13 +9,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using DVLD_Buisness;
-using DVLD.Classes;
-using DVLD.People;
-using DVLD.Controls;
+using MuseumTestProject1.Classes;
+using MuseumTestProject1.People;
+using MuseumTestProject1.Controls;
 using System.Runtime.Remoting.Messaging;
 
-namespace DVLD.User
+namespace MuseumTestProject1.User
 {
     public partial class frmAddUpdateUser: Form
     {

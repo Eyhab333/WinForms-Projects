@@ -1,4 +1,4 @@
-﻿namespace DVLD.Controls
+﻿namespace MuseumTestProject1.Controls
 {
     partial class ctrlPersonCardWithFilter
     {
@@ -36,7 +36,7 @@
             this.cbFilterBy = new System.Windows.Forms.ComboBox();
             this.txtFilterValue = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.ctrlPersonCard1 = new DVLD.Controls.ctrlPersonCard();
+            this.ctrlPersonCard1 = new MuseumTestProject1.Controls.ctrlPersonCard();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.gbFilters.SuspendLayout();
             this.SuspendLayout();
@@ -62,7 +62,7 @@
             // btnAddNewPerson
             // 
             this.btnAddNewPerson.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnAddNewPerson.Image = global::DVLD.Properties.Resources.AddPerson_32;
+            this.btnAddNewPerson.Image = global::MuseumTestProject1.Properties.Resources.AddPerson_32;
             this.btnAddNewPerson.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAddNewPerson.Location = new System.Drawing.Point(594, 20);
             this.btnAddNewPerson.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -75,7 +75,7 @@
             // btnFind
             // 
             this.btnFind.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFind.Image = global::DVLD.Properties.Resources.SearchPerson;
+            this.btnFind.Image = global::MuseumTestProject1.Properties.Resources.SearchPerson;
             this.btnFind.Location = new System.Drawing.Point(543, 20);
             this.btnFind.Name = "btnFind";
             this.btnFind.Size = new System.Drawing.Size(44, 37);

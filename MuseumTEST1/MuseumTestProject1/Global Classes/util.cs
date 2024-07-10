@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MuseumTestProject1.Global_Classes
+namespace MuseumTestProject1.Classes
 {
     public class clsUtil
     {
@@ -60,7 +60,7 @@ namespace MuseumTestProject1.Global_Classes
             // project images foldr after renaming it
             // with GUID with the same extention, then it will update the sourceFileName with the new name.
 
-            string DestinationFolder = @"C:\DVLD-People-Images\";
+            string DestinationFolder = @"C:\MuseumTestProject1-People-Images\";
             if (!CreateFolderIfDoesNotExist(DestinationFolder))
             {
                 return false;

@@ -1,4 +1,4 @@
-﻿namespace DVLD.Login
+﻿namespace MuseumTestProject1.Login
 {
     partial class frmLogin
     {
@@ -84,6 +84,7 @@
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox8);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox3);
             this.splitContainer1.Panel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.splitContainer1.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel2_Paint);
             this.splitContainer1.Size = new System.Drawing.Size(901, 523);
             this.splitContainer1.SplitterDistance = 417;
             this.splitContainer1.SplitterWidth = 6;
@@ -119,9 +120,9 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(363, 33);
             this.label3.TabIndex = 2;
-            this.label3.Text = "(DVLD) System";
+            this.label3.Text = "(MuseumTestProject1) System";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-              // 
+            // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Stencil", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -133,7 +134,7 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Driving && Vehicle License Department";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-             // 
+            // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Stencil", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -150,7 +151,6 @@
             // 
             this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Image = global::DVLD.Properties.Resources.closeBlack32;
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClose.Location = new System.Drawing.Point(418, 12);
             this.btnClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -186,7 +186,6 @@
             // btnLogin
             // 
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnLogin.Image = global::DVLD.Properties.Resources.sign_in_32;
             this.btnLogin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLogin.Location = new System.Drawing.Point(270, 278);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -240,7 +239,6 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::DVLD.Properties.Resources.Person_32;
             this.pictureBox8.Location = new System.Drawing.Point(128, 164);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(31, 26);
@@ -250,7 +248,6 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::DVLD.Properties.Resources.Number_32;
             this.pictureBox3.Location = new System.Drawing.Point(128, 201);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(31, 26);

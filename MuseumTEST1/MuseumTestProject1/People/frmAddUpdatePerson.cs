@@ -9,14 +9,14 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using DVLD.Classes;
-using DVLD.Properties;
-using DVLD_Buisness;
+using MuseumTestProject1.Classes;
+using MuseumTestProject1.Properties;
+using Museum_BusinessLayer;
 using System.IO;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 using System.Runtime.ConstrainedExecution;
 
-namespace DVLD.People
+namespace MuseumTestProject1.People
 {
     public partial class frmAddUpdatePerson : Form
     {

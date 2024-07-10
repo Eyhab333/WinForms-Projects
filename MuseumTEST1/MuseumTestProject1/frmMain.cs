@@ -14,13 +14,16 @@ using MuseumTestProject1.HistoricalPieces;
 using MuseumTestProject1.VisitHistory;
 using MuseumTestProject1.Settings;
 using MuseumTestProject1.Employees;
+using MuseumTestProject1.Login;
 
 
 namespace MuseumTestProject1
 {
     public partial class frmMain : Form
     {
-        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]// code to make the form corners rounded
+
+        // code to make the form corners rounded
+        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
         (
             int nLeftRect,     // x-coordinate of upper-left corner
@@ -31,9 +34,12 @@ namespace MuseumTestProject1
             int nHeightEllipse // height of ellipse
         );
 
-        public frmMain()
+        frmLogin _frmLogin;
+
+        public frmMain(frmLogin frm)
         {
             InitializeComponent();
+            _frmLogin = frm;
 
             // code to make the form corners rounded
             this.FormBorderStyle = FormBorderStyle.None;
@@ -193,6 +199,12 @@ namespace MuseumTestProject1
         private void pnlFormLoader_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btnPeople_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmListPeople();
+            frm.ShowDialog();
         }
     }
 }

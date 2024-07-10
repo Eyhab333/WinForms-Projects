@@ -1,4 +1,4 @@
-﻿namespace DVLD.User
+﻿namespace MuseumTestProject1.User
 {
     partial class frmAddUpdateUser
     {
@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.tcUserInfo = new System.Windows.Forms.TabControl();
             this.tpPersonalInfo = new System.Windows.Forms.TabPage();
-            this.ctrlPersonCardWithFilter1 = new DVLD.Controls.ctrlPersonCardWithFilter();
+            this.ctrlPersonCardWithFilter1 = new MuseumTestProject1.Controls.ctrlPersonCardWithFilter();
             this.btnPersonInfoNext = new System.Windows.Forms.Button();
             this.tpLoginInfo = new System.Windows.Forms.TabPage();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -99,7 +99,7 @@
             // btnPersonInfoNext
             // 
             this.btnPersonInfoNext.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnPersonInfoNext.Image = global::DVLD.Properties.Resources.Next_32;
+            this.btnPersonInfoNext.Image = global::MuseumTestProject1.Properties.Resources.Next_32;
             this.btnPersonInfoNext.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnPersonInfoNext.Location = new System.Drawing.Point(711, 420);
             this.btnPersonInfoNext.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -135,7 +135,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::DVLD.Properties.Resources.Number_32;
+            this.pictureBox2.Image = global::MuseumTestProject1.Properties.Resources.Number_32;
             this.pictureBox2.Location = new System.Drawing.Point(193, 58);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(31, 26);
@@ -244,7 +244,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::DVLD.Properties.Resources.Number_32;
+            this.pictureBox1.Image = global::MuseumTestProject1.Properties.Resources.Number_32;
             this.pictureBox1.Location = new System.Drawing.Point(193, 168);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(31, 26);
@@ -254,7 +254,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::DVLD.Properties.Resources.Person_32;
+            this.pictureBox8.Image = global::MuseumTestProject1.Properties.Resources.Person_32;
             this.pictureBox8.Location = new System.Drawing.Point(193, 94);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(31, 26);
@@ -264,7 +264,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::DVLD.Properties.Resources.Number_32;
+            this.pictureBox3.Image = global::MuseumTestProject1.Properties.Resources.Number_32;
             this.pictureBox3.Location = new System.Drawing.Point(193, 131);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(31, 26);
@@ -291,7 +291,7 @@
             // 
             this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnClose.Image = global::DVLD.Properties.Resources.Close_32;
+            this.btnClose.Image = global::MuseumTestProject1.Properties.Resources.Close_32;
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClose.Location = new System.Drawing.Point(611, 603);
             this.btnClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -305,7 +305,7 @@
             // 
             this.btnSave.Enabled = false;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSave.Image = global::DVLD.Properties.Resources.Save_32;
+            this.btnSave.Image = global::MuseumTestProject1.Properties.Resources.Save_32;
             this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSave.Location = new System.Drawing.Point(745, 603);
             this.btnSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
