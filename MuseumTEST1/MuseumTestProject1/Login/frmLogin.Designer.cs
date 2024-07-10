@@ -103,7 +103,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::DVLD.Properties.Resources.IconLogo;
             this.pictureBox1.Location = new System.Drawing.Point(87, 35);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(218, 201);
